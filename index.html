@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sheng Wei — Software Engineer & ML Enthusiast</title>
+  <meta name="description" content="Personal website of Sheng Wei — software engineer with expertise in systems, networking, and machine learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">Sheng Wei</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="container">
+    <section class="hero">
+      <div class="hero-tag">Open to opportunities</div>
+      <h1>Hi, I'm <span>Sheng Wei</span>.</h1>
+      <p class="hero-sub">
+        Software engineer specializing in systems programming, satellite networking,
+        and machine learning. Currently pursuing MSEE (AI/ML) at the University of Washington.
+      </p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="resume.html">View Resume</a>
+        <a class="btn btn-outline" href="blog/index.html">Read Blog</a>
+        <a class="btn btn-outline" href="https://github.com/wesk124" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-outline" href="https://linkedin.com/in/sheng-wei-0721" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <p class="section-label">What I work with</p>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Languages</h4>
+          <p>Python, C/C++, Java, Bash, MATLAB, Perl</p>
+        </div>
+        <div class="skill-card">
+          <h4>ML / AI</h4>
+          <p>PyTorch, NumPy, Pandas, OpenCV, Deep Learning, NLP, Computer Vision</p>
+        </div>
+        <div class="skill-card">
+          <h4>Systems</h4>
+          <p>Multithreading, Distributed Systems, TCP/IP, SD-WAN, DPDK, gRPC</p>
+        </div>
+        <div class="skill-card">
+          <h4>Tools</h4>
+          <p>Git, Docker, Linux, GDB, Wireshark, PostgreSQL, Grafana</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section">
+      <p class="section-label">Where I've worked</p>
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 2017 – Mar 2024</div>
+          <div class="timeline-body">
+            <h3>Software Engineer</h3>
+            <p class="org">Hughes Network Systems · Germantown, MD</p>
+            <ul>
+              <li>Designed task scheduling and packet queuing algorithms for multithreaded real-time satellite gateway systems.</li>
+              <li>Engineered SD-WAN software and diagnosed critical memory leaks and system crashes.</li>
+              <li>Developed RESTful APIs (JSON) and Net-SNMP interfaces for system configuration and monitoring.</li>
+              <li>Rebuilt gateway health monitoring with Grafana and PostgreSQL, reducing downtime from minutes to seconds.</li>
+              <li>Mentored new engineers and provided 24/7 on-call support for satellite gateway systems.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <p class="section-label">Things I've built</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Multi-Agent ML Chatbot (RAG)</h3>
+          <span class="tag">LLM · NLP</span>
+          <p>Multi-agent chatbot for machine learning knowledge retrieval using Retrieval-Augmented Generation. Integrated vector retrieval with LLM-based agents for query decomposition and response synthesis.</p>
+        </div>
+        <div class="project-card">
+          <h3>Sports Segmentation with DINO + SAM2</h3>
+          <span class="tag">Computer Vision</span>
+          <p>Computer vision pipeline for sports scene segmentation using DINO for representation learning and SAM2 for segmentation. Optimized inference for near real-time performance on video frames.</p>
+        </div>
+        <div class="project-card">
+          <h3>Movie Recommendation System</h3>
+          <span class="tag">ML · SVD</span>
+          <p>Collaborative filtering recommendation system using Singular Value Decomposition on user–item interaction data. Implemented matrix factorization with regularization, evaluated with RMSE and ranking metrics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="section">
+      <p class="section-label">Writing</p>
+      <h2 class="section-title">Recent Blog Posts</h2>
+      <div class="blog-list">
+        <a class="blog-card" href="blog/bridging-systems-and-ml.html">
+          <span class="blog-card-title">Bridging Systems Engineering and Machine Learning</span>
+          <span class="blog-card-meta">Mar 2026</span>
+        </a>
+        <a class="blog-card" href="blog/rag-multi-agent-chatbot.html">
+          <span class="blog-card-title">Building a RAG-Based Multi-Agent Chatbot</span>
+          <span class="blog-card-meta">Feb 2026</span>
+        </a>
+        <a class="blog-card" href="blog/index.html">View all posts →</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+      <p class="section-label">Get in touch</p>
+      <h2 class="section-title">Contact</h2>
+      <p style="color: var(--muted); margin-bottom: 20px;">
+        I'm currently open to new opportunities. Feel free to reach out via email or LinkedIn.
+      </p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="btn btn-primary" href="mailto:REDACTED_EMAIL">REDACTED_EMAIL</a>
+        <a class="btn btn-outline" href="https://linkedin.com/in/sheng-wei-0721" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 Sheng Wei · <a href="https://github.com/wesk124" target="_blank" rel="noopener">github.com/wesk124</a></p>
+  </footer>
+
+</body>
+</html>
