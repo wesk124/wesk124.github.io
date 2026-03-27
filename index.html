@@ -9,34 +9,48 @@
 </head>
 <body>
 
-  <header>
-    <div class="header-inner">
+  <header class="site-header">
+    <div class="wrap">
       <a class="site-title" href="index.html">Sheng Wei</a>
-      <nav>
-        <a href="index.html" class="active">Blog</a>
-        <a href="about.html">About</a>
+      <nav class="site-nav">
+        <div class="trigger">
+          <a class="page-link" href="about.html">About</a>
+        </div>
       </nav>
     </div>
   </header>
 
-  <div class="wrap">
-    <ul class="post-list">
-      <!-- Posts go here. Example:
-      <li>
-        <span class="post-date">Jan 01, 2026</span>
-        <a class="post-link" href="blog/your-post.html">Your Post Title</a>
-        <p class="post-excerpt">A short description of the post.</p>
-      </li>
-      -->
-      <li>
-        <p style="color:#aaa; font-size:0.92rem;">No posts yet.</p>
-      </li>
-    </ul>
+  <div class="page-content">
+    <div class="wrap">
+      <div class="home">
+        <ul class="posts">
+          <!-- Add new posts here:
+          <li>
+            <span class="post-date">Jan 01, 2026</span>
+            <a class="post-link" href="blog/your-post-title.html">Your Post Title</a>
+            <br>
+            A one or two sentence excerpt describing the post.
+          </li>
+          -->
+          <li style="color:#aaa; font-size:15px;">No posts yet.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
-  <footer>
-    <a href="https://github.com/wesk124" target="_blank" rel="noopener">github</a> &nbsp;·&nbsp;
-    <a href="https://linkedin.com/in/sheng-wei-0721" target="_blank" rel="noopener">linkedin</a>
+  <footer class="site-footer">
+    <div class="wrap">
+      <h2 class="footer-heading">Sheng Wei</h2>
+      <div class="column footer-col-1">
+        <p>Software engineer. Systems &amp; ML.</p>
+      </div>
+      <div class="column footer-col-2">
+        <ul>
+          <li><a href="https://github.com/wesk124" target="_blank" rel="noopener">github.com/wesk124</a></li>
+          <li><a href="https://linkedin.com/in/sheng-wei-0721" target="_blank" rel="noopener">linkedin</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 
 </body>
