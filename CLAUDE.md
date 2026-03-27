@@ -25,8 +25,6 @@ website/
 
 ## Owner Info
 - **Name:** Sheng Wei
-- **Email:** REDACTED_EMAIL
-- **Phone:** REDACTED_PHONE
 - **GitHub:** github.com/wesk124
 - **LinkedIn:** linkedin.com/in/sheng-wei-0721
 
